@@ -12,10 +12,10 @@
             <p id="paragraph"> <b>Contach us Today, and get replay within 24 hours!</b> </p>
             <form action="#" onsubmit="saveData();this.reset();return false;">
                 <div class="inputs">
-                   <input type="text" name="userName" value=""  id="name" pattern="[a-zA-Z ]+"   placeholder="Enter Your name" required ><br><br>
-                    <input type="email" name="emailID" id="email" value="" pattern="[a-z0-9.]+@[a-z0-9]+\.[a-z]{2,4}" placeholder="Enter Your Email Id" required ><br><br>
-                    <input type="tel" name="phoneNumber" id="mobileNumber" value="" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="Enter Your Phone Number" required ><br><br>
-                    <input type="url" name="url" id="webURL" value="" pattern="https://+[a-z0-9/]+\.[a-z]{2,5}" title="Url Must have https://" placeholder="Enter Your Website" required><br><br>
+                   <input type="text" name="userName" value=""  id="name" pattern="[a-zA-Z ]+" title="Alphabets Only"  placeholder="Enter Your name" required ><br><br>
+                    <input type="email" name="emailID" id="email" value="" pattern="[a-z0-9.]+@[a-z0-9]+\.+[a-z]{2,4}"  title=" Example username@organization.domain" placeholder="Enter Your Email Id" required ><br><br>
+                    <input type="tel" name="phoneNumber" id="mobileNumber" value="" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}" title="Ex 1-111-111-111" placeholder="Enter Your Phone Number" required ><br><br>
+                    <input type="url" name="url" id="webURL" value="" pattern="https://+[a-z0-9/]+\.+[a-z]{2,5}" title=" example https://abc.com"  placeholder="Enter Your Website" required><br><br>
                     <textarea name="message" id="textArea"  cols="30" rows="4"  placeholder="Enter your Message" ></textarea><br><br>
                     <input type="submit" value="Submit" id="button">
                 </div>
